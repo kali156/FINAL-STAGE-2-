@@ -48,7 +48,8 @@ like : how drugs active against Priority Pathogen
 
 # What is The Classification of the Products in the data set?
 
-![calssification .png](calssification_.png)
+![calssification_.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/calssification_.png)
+
 
 ---
 
@@ -64,19 +65,19 @@ the numbers of the antibiotics in the dataset is : **32 Product**
 
 the vast majority of the Products is still in the Phase I 
 
-![R.D phase of Anti-biotics.png](R.D_phase_of_Anti-biotics.png)
+![R.D_phase_of_Anti-biotics.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/R.D_phase_of_Anti-biotics.png))
 
 ---
 
-![image.png](image.png)
+![image.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/image.png)
 
 ### **the Route of Administration of the different Products**
 
-![route of adminstrtion.png](route_of_adminstrtion.png)
+![route_of_adminstrtion.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/route_of_adminstrtion.png)
 
 ### The Results of the Products against Priority Pathogens
 
-![antibiotics product aganist priority pathogens.jpg](9d8c462c-a496-4532-a72b-48b4594666a9.png)
+![antibiotics product aganist priority pathogens.jpg](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/9d8c462c-a496-4532-a72b-48b4594666a9.png)
 
 ---
 
@@ -98,7 +99,7 @@ the numbers of the **Bacteriophages and phage-derived enzymes type Drug** in the
 
 There is four Antibacterial class : 
 
-![antibacterial calss.jpg](antibacterial_calss.jpg)
+![antibacterial calss.jpg](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/antibacterial_calss.jpg)
 
 ### **the R.D phases of The** Bacteriophages and phage-derived enzymes **Products :**
 
@@ -106,13 +107,13 @@ The 5 out of 9 of these product in the Phase II
 
 ### **the Route of Administration of the different Products**
 
-![Route of adminstration.png](Route_of_adminstration.png)
+![Route of adminstration.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Route_of_adminstration.png)
 
-![R.D phase.png](R.D_phase.png)
+![R.D phase.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/R.D_phase.png)
 
 ### **Result**
 
-![Result.png](Result.png)
+![Result.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Result.png)
 
 # **Immunomodulating agents :**
 
@@ -127,11 +128,11 @@ there is two (anti bacterial classes in the data) :
 
 ### **the Route of Administration of the different Products ?**
 
-![Route of adminsstration.png](Route_of_adminsstration.png)
+![Route of adminsstration.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Route_of_adminsstration.png)
 
 ---
 
-![Immunomodulating agents (anti-bacterial class ).png](Immunomodulating_agents_(anti-bacterial_class_).png)
+![Immunomodulating agents (anti-bacterial class ).png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Immunomodulating_agents_(anti-bacterial_class_).png)
 
 ---
 
@@ -139,7 +140,7 @@ there is two (anti bacterial classes in the data) :
 
 ### Result :
 
-![Activity.png](Activity.png)
+![Activity.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Activity.png)
 
 <aside>
 💡
@@ -150,7 +151,7 @@ is very good
 
 </aside>
 
-![Names of the Pathogen that immuno modulating agents tested on.png](Names_of_the_Pathogen_that_immuno_modulating_agents_tested_on.png)
+![Names of the Pathogen that immuno modulating agents tested on.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Names_of_the_Pathogen_that_immuno_modulating_agents_tested_on.png)
 
 # **Microbe-Modulating**
 
@@ -162,11 +163,12 @@ the numbers of the **Microbe-Modulating type Drug** in the dataset is : 9 **Prod
 - **Antibiotic inactivator and protective colon-targeted adsorbent**
 - **Antibiotic inactivator**
 
-![the most drugs has been developed by Live bio-therapeutic products.png](the_most_drugs_has_been_developed_by_Live_bio-therapeutic_products.png)
+![the most drugs has been developed by Live bio-therapeutic products.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/the_most_drugs_has_been_developed_by_Live_bio-therapeutic_products.png)
 
 ### **the Route of Administration of the different Microbe-Modulating Products ?**
 
-![route of adminstration.png](route_of_adminstration.png)
+![route of adminstration](https://github.com/user-attachments/assets/25a35ae2-fe4b-4ac7-b132-a6d71b354d09)
+
 
 ### **What is the Names of the Pathogen that Microbe-Modulating Products tested on ?**
 
@@ -176,9 +178,9 @@ Except SVT-1C469 has been Tested against Multiple Pathogens
 
 ### **Results**
 
-![Results.png](Results.png)
+![Results.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Results.png)
 
-![pathogens had been tried aganist pathogens.png](pathogens_had_been_tried_aganist_pathogens.png)
+![pathogens had been tried aganist pathogens.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/pathogens_had_been_tried_aganist_pathogens.png)
 
 <aside>
 💡
@@ -204,19 +206,19 @@ the numbers of the **Miscellaneous type Drug** in the dataset is : 5 **Product**
 
 **[5] "Alginate oligosaccharide (G-block) fragment"**
 
-![Antibacterial class.png](Antibacterial_class.png)
+![Antibacterial class.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Antibacterial_class.png)
 
 ### **the Route of Administration of the different Miscellaneous Products ?**
 
-![Route.of.admistration.png](Route.of.admistration.png)
+![Route.of.admistration.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Route.of.admistration.png)
 
 ### **What is the Names of the Pathogen that Miscellaneous  Products tested on ?**
 
-![pathigens that has been tested aganist.png](pathigens_that_has_been_tested_aganist.png)
+![pathigens that has been tested aganist.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/pathigens_that_has_been_tested_aganist.png)
 
 ### Result
 
-![activity agnosy Pathogens.png](activity_agnosy_Pathogens.png)
+![activity agnosy Pathogens.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/activity_agnosy_Pathogens.png)
 
 # **antibodies data**
 
@@ -233,19 +235,19 @@ the numbers of the **antibodies  type Drug** in the dataset is : 6 **Product**
 [6] "anti-C. difficile polcyclonal Ab"**
 ```
 
-![the anti bacterial class that have been used in Antibodies.png](the_anti_bacterial_class_that_have_been_used_in_Antibodies.png)
+![the anti bacterial class that have been used in Antibodies.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/the_anti_bacterial_class_that_have_been_used_in_Antibodies.png)
 
 ### **the Route of Administration of the different antibodies Products ?**
 
 ### **What is the Names of the Pathogen that antibodies  Products tested on ?**
 
-![route of adminstration.png](route_of_adminstration%201.png)
+![route of adminstration.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/route_of_adminstration%201.png)
 
-![tried pathogen.png](tried_pathogen.png)
+![tried pathogen.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/tried_pathogen.png)
 
 ### Result
 
-![Rplot.png](Rplot.png)
+![Rplot.png](https://github.com/kali156/FINAL-STAGE-2-/blob/main/Images/Rplot.png)
 
 <aside>
 💡 It seems very Promising affective against all of the pathogens that had bee tested on  

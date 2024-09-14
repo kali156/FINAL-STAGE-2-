@@ -1,10 +1,7 @@
 ---
 title: "Data Visualization code for Amr Proucts"
 author: "mahmoud hassanen(@Mahmoud203) , Sarah Shebl (@Sarah50) , Abdullah Ibrahim Ali(@Abdullah108) , Kareem El Sayed Saad Abd El Gawad (Kareem_101) , Nada Esmael Sleim (Eddy27) "
-date: "2024-09-14"        
-output:
-  cleanrmd::html_document_clean:
-    theme: water-dark
+date: "2024-09-14"
 ---
 
 # Introduction.

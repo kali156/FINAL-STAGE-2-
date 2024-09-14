@@ -4,6 +4,13 @@ author: "mahmoud hassanen(@Mahmoud203) , Sarah Shebl (@Sarah50) , Abdullah Ibrah
 date: "2024-09-14"
 ---
 
+# 💡 Imprtant links :
+
+1. if you don't like the code here we even visualize it better in this [page](https://ivory-astrid-1.tiiny.site)
+
+2.  we create Notion [Report](https://vigorous-dahlia-f5d.notion.site/AMR-New-Products-Deep-Analysis-38b6b444f6224a15a3afd647f7e6c18f?pvs=4) if you don't want see a code 
+
+3.  Info graphic[ summary](https://drive.google.com/file/d/1xnLhcd_LJfnsJomjtbc3gQtF7GAVvwgg/view) 
 # Introduction.
 
 **Hi, this R markdown file for Data Visualization code.**

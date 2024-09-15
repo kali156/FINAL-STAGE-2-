@@ -30,6 +30,7 @@ Raw Cholera Outbreak Data:
 
 ## R code.
 
+
 first loading these Libraries
 
 ```{r}
@@ -38,6 +39,15 @@ library(tidyverse)
 library(ggsci) 
 library(ggplot2)
 library(dplyr)
+
+```
+IF you don't have it install from that code
+```{r}
+#===================================library
+install.packages("tidyverse")
+install.packages("ggsci")
+install.packages("ggplot2")
+install.packages("dplyr")
 
 ```
 

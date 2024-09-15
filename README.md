@@ -10,7 +10,20 @@ date: "2024-09-14"
 
 2.  we create Notion [Report](https://vigorous-dahlia-f5d.notion.site/AMR-New-Products-Deep-Analysis-38b6b444f6224a15a3afd647f7e6c18f?pvs=4) if you don't want see a code 
 
-3.  Info graphic[ summary](https://drive.google.com/file/d/1xnLhcd_LJfnsJomjtbc3gQtF7GAVvwgg/view) 
+3.  Info graphic[ summary](https://drive.google.com/file/d/1xnLhcd_LJfnsJomjtbc3gQtF7GAVvwgg/view)
+
+## Used Data
+
+Raw Cholera Outbreak Data:  
+ from  the WHO (https://raw.githubusercontent.com/HackBio-Internship/public\_datasets/main/R/WHO\_AMR\_PRODUCTS\_DATA.tsv)
+
+   
+## Steps (100% using R script)
+
+1-Download the data   
+2-Data analysis and Manipulation  
+3-Generate Meaningful plots and infographic summary identify the Trends and significant product
+
 # Introduction.
 
 **Hi, this R markdown file for Data Visualization code.**

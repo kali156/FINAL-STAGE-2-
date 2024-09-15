@@ -51,3 +51,99 @@ theme_minimal() +
         plot.title = element_text(size = 4),
         axis.title.x  = element_text(size = 2),
         axis.text = element_text(size = 4))
+  #The relation between Rout of addministraition and drug activity
+  # Summarize the data
+  Route_Activity_relation <- AMR_Products %>%
+    filter(Active.against.priority.pathogens. !='N/A')%>%
+    filter(Route.of.administration !='N/A')%>%
+    group_by(Route.of.administration, Active.against.priority.pathogens.) %>%
+    summarise(Count = n(), .groups = 'drop')
+  
+  # Create the dot plot with ggplot
+  ggplot_plot <- ggplot(Route_Activity_relation, aes(x = Route.of.administration, y = Count, fill = Active.against.priority.pathogens.)) +
+    geom_point(size = 3) +
+    scale_fill_manual(values = c("Yes" = "green", "No" = "red", "Possibly" = "orange")) +
+    labs(title = "Relationship Between Route of Administration and Drug Effectiveness",
+         x = "Route of Administration",
+         y = "Number of Products",
+         color = "Effectiveness Against Priority Pathogens") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          plot.title = element_text(size = 8),
+          axis.title = element_text(size = 8),
+          axis.text = element_text(size = 8))
+  
+  # 
+  interactive_plot <- ggplotly(ggplot_plot)
+  # Display the interactive plot
+  interactive_plot
+  #uploud the plot online
+  htmlwidgets::saveWidget(interactive_plot,'interactive_polt.html')
+  Sys.setenv("plotly_username"="Abdullah988")
+  Sys.setenv("plotly_api_key"="r4cNVAaAC8iReKbMxLDS")
+  api_create(interactive_plot, filename = "plotly")
+#________________________________________________________________________
+  # Summarize the data to count occurrences of each combination
+data <- AMR_Products %>%
+    group_by(Product.name, Antibacterial.class, R.D.phase,Pathogen.name,Active.against.priority.pathogens.) %>%
+  filter(Active.against.priority.pathogens.!='N/A')%>%
+  filter(Active.against.priority.pathogens.!='Possibly')%>%
+  
+    summarise(Count = n(), .groups = 'drop')
+  
+ 
+
+# Create the bubble chart
+bubble_plot <- plot_ly(
+  data = data,
+  x = ~R.D.phase,
+  y = ~Antibacterial.class,
+  size = I(10),  # Constant size for all bubbles
+  color = ~Active.against.priority.pathogens.,  # Color by activity against priority pathogens
+    # Color by activity against priority pathogens
+  colors = c("Yes" = "blue", "No" = "red"),
+   text = ~paste("Product Name:", Product.name, 
+                "<br>Pathogen Name:", Pathogen.name, 
+                "<br>Active Against Priority Pathogens:", Active.against.priority.pathogens.),
+  hoverinfo = 'text',
+  type = 'scatter',
+  mode = 'markers'
+) %>%
+  layout(
+    xaxis = list(title = "R&D Phase"),
+    yaxis = list(title = "Antibacterial Class"),
+    title = "Bubble Plot of Antibacterial Products",
+    showlegend = TRUE
+  )
+
+# Display the interactive bubble plot
+bubble_plot
+#upload the plot online
+Sys.setenv("plotly_username"="Abdullah988")
+Sys.setenv("plotly_api_key"="r4cNVAaAC8iReKbMxLDS")
+api_create(bubble_plot, filename = "bubbplot")
+#_____________________________________________________________________
+#non traditional data categories
+Non.traditional=AMR_Products%>%filter(Product.type=="Non-traditional")
+Non.traditional
+colnames(Non.traditional)
+
+ggplot(Non.traditional, aes(x = "", y = Non.traditionals.categories, 
+                            fill = factor(Non.traditionals.categories))) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  scale_fill_discrete(name = "Non.traditionals.categories") +
+  labs(title = "Pie Chart of Non.traditionals.categories") +
+  theme_void() +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.position = "bottom",legend.title.position = "top")
+#Which category has effect on which pathigens
+
+# Create a simple dot plot 
+ggplot(Non.traditional, aes(x = Non.traditionals.categories, y = Pathogen.name)) +
+  geom_point(aes(color = Pathogen.name), size = 3, position = position_jitter(width = 0.2, height = 0.2)) +
+  labs(title = "Effect of Products on Pathogens",
+       x = "Non.traditionals.categories",
+       y = "Pathogen Name",
+       color = "Pathogen Name") +
+  theme(legend.position = "bottom")
